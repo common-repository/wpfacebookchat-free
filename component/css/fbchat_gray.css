@@ -1,0 +1,105 @@
+html{overflow:0}
+body{padding-bottom:30px;text-align:left}
+#jfbcchat_base{position:fixed;bottom:0;display:block;height:25px;left:15px;background-image:url(../images/gray/bgrepeat.gif);border-left:1px solid #b5b5b5;font-family:"Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;font-size:11px;z-index:10000}
+#jfbcchat_chatboxes{height:25px;overflow:hidden;float:right}
+#jfbcchat_chatboxes_wide{height:25px;width:0}
+#jfbcchat_chatbox_left{float:right;cursor:pointer;width:10px;height:18px;background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:3px -350px;padding-left:11px;padding-top:6px;color:#333;border-left:1px solid #ccc;margin-top:1px}
+#jfbcchat_chatbox_right{float:right;cursor:pointer;width:17px;height:18px;background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:11px -572px;padding-left:3px;padding-top:6px;color:#333;border-left:1px solid #ccc;margin-top:1px}
+.jfbcchat_chatbox_right_last{background-position:11px -611px!important;cursor:default!important;color:#a7a7a7!important}
+.jfbcchat_chatbox_left_last{background-position:3px -389px!important;cursor:default!important;color:#a7a7a7!important}
+.jfbcchat_chatbox_lr{display:none!important}
+#jfbcchat_optionsbutton{width:25px;border-right:1px solid #ccc}
+#jfbcchat_userstab{width:176px;padding-left:9px}
+.jfbcchat_userstabclick{background-position:5px 3px!important;padding-left:8px!important;width:177px!important}
+.jfbcchat_closebox{width:21px;height:12px;background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:4px -934px;float:right}
+.jfbcchat_closebox_bottom{width:16px;height:12px;background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:1px -1010px;float:right}
+.jfbcchat_closebox_bottom_click{background-position:0 -1010px!important}
+.jfbcchat_closebox_bottomhover{background-position:1px -1047px!important}
+.jfbcchat_chatboxmouseoverclose{background-position:4px -973px!important}
+.jfbcchat_name{float:left;color:#FFF}
+#jfbcchat_chatbox_buttons{float:right}
+.jfbcchat_tabmouseovertext{text-decoration:underline}
+.jfbcchat_tab{margin-top:1px;height:18px;border-left:1px solid #ccc;border-right:1px solid #e5e5e5;float:right;padding-left:10px;padding-top:5px;cursor:pointer;font-weight:700;width:140px;color:#444}
+.jfbcchat_tabclick{background-color:#FFF!important;border-left:1px solid #333!important;border-right:1px solid #333!important;border-bottom:1px solid #333!important;padding-top:4px!important;text-decoration:underline;color:#111!important}
+.jfbcchat_usertabclick{width:141px!important;padding-left:9px!important}
+.jfbcchat_tabpopup{background-color:#fff;position:fixed;width:230px;font-family:"Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;font-size:11px;text-align:left}
+#jfbcchat_userstab_popup{width:224px;text-align:left}
+#jfbcchat_optionsbutton_popup{width:224px}
+.jfbcchat_tabopen{display:block!important;z-index:10000}
+.jfbcchat_tabtitle{border-right:1px solid #11648f;border-left:1px solid #11648f;border-top:1px solid #11648f;background-color:#3e92bd!important;color:#fff;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-weight:700;cursor:pointer;background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:195px -424px;padding:5px 0 5px 5px}
+.jfbcchat_userstabtitle{border-right:1px solid #11648f;border-left:1px solid #11648f;border-top:1px solid #11648f;background-color:#3e92bd!important;color:#fff;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-weight:700;cursor:pointer;background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:205px -433px;padding:8px}
+.jfbcchat_chatboxtabtitlemouseover{background-position:195px -457px!important}
+.jfbcchat_chatboxtabtitlemouseover2{background-position:205px -466px!important}
+.jfbcchat_tabsubtitle{border-right:1px solid #333;border-left:1px solid #333;background-color:#eee;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:9px;color:#666;padding:5px}
+.jfbcchat_tabcontent{border-right:1px solid #333;border-left:1px solid #333;background-color:#fff;background-image:url(../images/tabbottomoptions.gif);height:210px;background-repeat:no-repeat;background-position:left bottom;color:#333;overflow-x:hidden;overflow-y:auto;word-wrap:break-word;padding:5px 5px 1px}
+.jfbcchat_trigger_emoticon{background-image:url(../images/gray/trigger.gif);background-repeat:no-repeat;height:20px;margin-left:4px;cursor:pointer}
+.jfbcchat_emoticonstooltip img{margin:0 0 0 3px}
+.jfbcchat_emoticonstooltip{background-image:url(../images/gray/pointer_side.png);background-repeat:no-repeat;background-position:right bottom;position:fixed;display:none;padding-right:3px;height:145px}
+.jfbcchat_emoticonstooltip div.jfbcchat_tooltip_content{border-left:1px solid #333;border-right:1px solid #333;background-color:#FFF!important}
+.jfbcchat_emoticonstooltip div.jfbcchat_tooltip_content:last-child{border-bottom:1px solid #333}
+.jfbcchat_avatar_upload_tooltip{background-image:url(../images/gray/pointer_side.png);background-repeat:no-repeat;background-position:right bottom;position:fixed;display:none;padding-right:3px;height:300px;width:302px}
+.jfbcchat_avatar_upload_tooltip iframe{border-left:1px solid #333;border-right:1px solid #333;background-color:#FFF!important;border-bottom:1px solid #333;height:290px;width:99%}
+#avatar_delete{width:16px;height:16px;background-position:0;background:url(../images/gray/fmdelete.png) no-repeat top left;border:none;cursor:pointer}
+#avatar_upload{width:16px;height:16px;background-position:0;background:url(../images/gray/fmupload.png) no-repeat top left;border:none;cursor:pointer}
+img.avatar_img{border:3px dashed #CCC;padding:5px}
+#deleteform fieldset{height:80px}
+#uploadform fieldset{height:70px}
+#deleteform img{margin-left:10px}
+label.buttonlabel{color:#333;padding-left:3px;font-size:10px}
+div.formbutton{float:right;margin-top:12px}
+div.up{margin-top:50px}
+div.upload_usermessage{background-color:#FFFFE0;border:1px solid #E6DB55;height:40px;margin-top:15px;padding:2px}
+.jfbcchat_tooltip_header{height:10px;background-color:#3E92BD!important;border-bottom:1px solid #666;background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:205px -992px;padding-bottom:4px;color:#FFF;cursor:pointer;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-weight:700;border-left:1px solid #11648F;border-right:1px solid #11648F;border-top:1px solid #11648F;width:224px}
+.jfbcchat_tooltip_avatar_upload_header{width:299px;background-position:285px -992px}
+.jfbcchat_tabcontent.userslist{background-image:url(../images/tabbottomwhosonline.gif);height:200px;padding-top:5px;padding-bottom:5px}
+.jfbcchat_tabcontent.messagelist{height:260px}
+.jfbcchat_tabcontenttext{height:200px;border-bottom:1px solid #f6f6f6;overflow-x:hidden;overflow-y:auto;padding:5px}
+.jfbcchat_userscontent{height:200px;overflow-x:hidden;overflow-y:auto}
+.jfbcchat_tabcontentinput{border-bottom:1px solid #ccc;border-top:1px solid #ccc;background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:5px -25px;outline:none;margin-bottom:2px;padding:4px 0 0 25px}
+.jfbcchat_textarea{width:200px;border:0;height:21px;overflow:hidden;font-family:"Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;font-size:11px;color:#444;outline:none}
+.jfbcchat_tooltip_content{color:#fff;font-family:"Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;background-color:#333!important;font-size:11px;white-space:nowrap;padding:3px}
+.jfbcchat_userlist{cursor:pointer;height:20px;clear:both;margin-bottom:5px}
+.jfbcchat_userscontentname{padding-left:5px;padding-top:3px;padding-bottom:3px;float:left}
+.jfbcchat_userscontentname img{float:left;margin-bottom:5px;margin-right:5px}
+.jfbcchat_userscontentdot{float:right;background-repeat:no-repeat;background-position:0 2px;width:20px;height:16px}
+.jfbcchat_available{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -129px!important}
+.jfbcchat_away{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -175px!important}
+.jfbcchat_busy{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -221px!important}
+.jfbcchat_offline{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -1088px!important}
+#jfbcchat_tooltip{background-image:url(../images/gray/pointer.png);background-repeat:no-repeat;background-position:right bottom;position:fixed;display:none;padding-bottom:4px;z-index:10002}
+#jfbcchat_avatartooltip{background-image:url(../images/gray/pointer_side.png);background-repeat:no-repeat;background-position:right center;position:fixed;display:none;padding-right:4px;font-weight:700}
+.jfbcchat_closebox_bottom_status{float:left;width:16px;height:16px;background-repeat:no-repeat;background-position:0 -1px}
+.jfbcchat_tabalert{width:16px;height:16px;position:absolute;background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -535px;color:#333;font-size:8px;padding-top:1px;text-align:center;text-decoration:none!important}
+.jfbcchat_tabalertlr{width:16px;height:16px;position:absolute;background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -537px;color:#FFF;font-size:8px;padding-top:1px;text-align:center}
+div.jfbcchat_chatboxmessage{margin-left:1em;clear:both;margin-bottom:5px}
+span.jfbcchat_chatboxmessagefrom{margin-left:-1em;font-weight:700;float:left}
+span.jfbcchat_chatboxmessagecontent{margin-left:28px;display:block}
+.jfbcchat_statustextarea{border:1px solid #ccc;width:200px;margin-top:3px;margin-bottom:3px;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;color:#444;overflow-x:hidden;overflow-y:auto;height:42px;outline:none;padding:4px}
+.jfbcchat_optionsstatus{padding-left:2px;float:left;padding-top:1px;cursor:pointer}
+.jfbcchat_optionsstatus2{float:left}
+.jfbcchat_friendtextbox{border:1px solid #ccc;width:200px;margin-top:4px;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;color:#444;font-weight:400;padding:2px}
+.jfbcchat_tabcontent a{color:#287197}
+.jfbcchat_jfbc_gooffline{color:#000;text-decoration:underline;cursor:pointer}
+.jfbcchat_user_invisible{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -890px!important;width:16px;height:16px}
+.jfbcchat_user_available{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -752px!important;width:16px;height:16px}
+.jfbcchat_user_busy{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -798px!important;width:16px;height:16px}
+#jfbcchat_userstab_icon{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -753px;width:16px;height:16px;float:left;padding-right:5px}
+.jfbcchat_user_invisible2{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -891px!important}
+.jfbcchat_user_available2{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -753px!important}
+.jfbcchat_user_busy2{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -799px!important}
+.jfbcchat_user_away2{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:0 -845px!important}
+.jfbcchat_optionsimages{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:10px -309px!important}
+.jfbcchat_backlink{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:-4px -1215px!important;width:10px;padding-left:2px;padding-top:2px;margin-top:1px;cursor:auto}
+.jfbcchat_backlink_novisible{width:0;cursor:auto;display:none}
+.jfbcchat_backlink a{color:transparent}
+.jfbcchat_optionsimages_click{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:10px -310px!important}
+.jfbcchat_optionsimages_exclamation{background:url(../images/gray/jfbcchat.png) no-repeat top left;background-position:10px -263px!important}
+span.poweredby a,span.poweredby a:visited,span.poweredby a:hover{font-size:8px;color:#fff;margin-left:55px}
+a#setstatusmessage,a#setstatusmessage:visited,a#setstatusmessage:hover{color:#11648F}
+.fbchat_testaudio{cursor:pointer;margin-top:5px;background:url(../images/gray/speaker.png) no-repeat top left;padding-left:20px}
+.speakericon{margin-right:8px}
+.fbchat_avatar{cursor:pointer;margin-top:15px;background:url(../images/gray/avatar.png) no-repeat top left;background-position:0 10px;padding-left:20px;padding-top:10px;border-top:1px solid #CCC}
+div.jfbcchat_advplus{height:58px;background-image:url(../images/adv.png);background-repeat:no-repeat;background-position:center center}
+div.jfbcchat_advplus a{width:100%;height:100%;display:block}
+.jfbcchat_chatbox_lr_mouseover,.jfbcchat_tabmouseover{background-color:#fff!important}
+.jfbcchat_userlist_hover,.jfbcchat_chatboxmessagefrom a:link,.jfbcchat_chatboxmessagefrom a:visited,.jfbcchat_tabsubtitle a{color:#000}

@@ -1,0 +1,28 @@
+//FILE di traduzione variabili javascript
+var jfbc_chionline = 'Συνδεδεμένοι Χρήστες';
+var jfbc_nousers = '- Δεν υπάρχουν συνδεδεμένοι χρήστες -';
+var jfbc_gooffline = 'Εκτός Σύνδεσης';
+var jfbc_available = 'Διαθέσιμος';
+var jfbc_statooccupato = 'Απασχολημένος';
+var jfbc_statoinvisibile = 'Αόρατος';
+var jfbc_defaultstatus = '-';
+var jfbc_mystatus = '<a id="setstatusmessage" href="javascript:void(0)">Ορίστε</a> μήνυμα και κατάσταση';
+var jfbc_addfriend = 'Προσθήκη φίλων';
+var jfbc_chatoptionstitle = 'Ρυθμίσεις Chat';
+var jfbc_pleaselogin = 'Παρακαλώ συνδεθείτε για να κάνετε chat'; 
+var jfbc_spacer = '&nbsp;';  
+var jfbc_scegliemoticons = 'επιλέξετε emoticons';
+var jfbc_manage_avatars = 'Διαχείριση Avatar';
+var jfbc_user_avatar = 'Τρέχουσα Avatar';
+var jfbc_avatar_delete = 'Διαγραφή';
+var jfbc_upload_newavatar = 'Ανεβάστε νέο Avatar';
+var jfbc_upload = 'Ανεβάστε';
+var jfbc_gderror = 'PHP GD Βιβλιοθήκη δεν έχει εγκατασταθεί. <br/> Είναι απαραίτητο για τη διαχείριση του avatar. <br/> Παρακαλούμε επικοινωνήστε με τον πάροχο φιλοξενίας για να το ενεργοποιήσετε.';
+var jfbc_size_error = 'Μέγεθος αρχείου υπέρβαση.';
+var jfbc_ext_error = 'Ο τύπος αρχείου δεν επιτρέπεται.';
+var jfbc_dir_writable = 'Στόχος κατάλογο μέλους δεν είναι εγγράψιμος';
+var jfbc_upload_error = 'Σφάλμα μεταφόρτωση του αρχείου';
+var jfbc_success_avatar = 'Ανέβηκαν με επιτυχία Avatar';
+var jfbc_success_delete_avatar = 'Ο χρήστης διαγράφηκε με επιτυχία';
+var jfbc_error_deleting_avatar = 'Σφάλμα κατά τη διαγραφή μέλους';
+var jfbc_avatar_notfound = 'Avatar αρχείο δεν βρέθηκε';

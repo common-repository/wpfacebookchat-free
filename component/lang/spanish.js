@@ -1,0 +1,28 @@
+//FILE di traduzione variabili javascript 
+var jfbc_chionline = 'Usuarios Conectados'; 
+var jfbc_nousers = '- No hay usuarios conectados -';
+var jfbc_gooffline = 'Desconectarme'; 
+var jfbc_available = 'Dispon.'; 
+var jfbc_statooccupato = 'Ocupado'; 
+var jfbc_statoinvisibile = 'Invis.'; 
+var jfbc_defaultstatus = '-'; 
+var jfbc_mystatus = '<a id="setstatusmessage" href="javascript:void(0)">Ajustar</a> mensaje y status'; 
+var jfbc_addfriend = 'Sumar amigos'; 
+var jfbc_chatoptionstitle = 'Opciones del Chat'; 
+var jfbc_pleaselogin = 'Por favor logueate para usar el Chat'; 
+var jfbc_spacer = ' '; 
+var jfbc_scegliemoticons = 'Seleccionar caritas';
+var jfbc_manage_avatars = 'Administrar avatar';
+var jfbc_user_avatar = 'Avatar actual';
+var jfbc_avatar_delete = 'Borrar';
+var jfbc_upload_newavatar = 'Subir nuevo avatar';
+var jfbc_upload = 'Subir';
+var jfbc_gderror = 'PHP librería GD no está instalado. <br/> Se requiere para la gestión de avatar. <br/> Póngase en contacto con el proveedor de hosting para que pueda.';
+var jfbc_size_error = 'El tamaño del archivo supera.';
+var jfbc_ext_error = 'Tipo de archivo no permitido.';
+var jfbc_dir_writable = 'Meta directorio de Avatar no se puede escribir';
+var jfbc_upload_error = 'Error de subida de archivos';
+var jfbc_success_avatar = 'Avatar cargado correctamente';
+var jfbc_success_delete_avatar = 'Avatar se ha eliminado correctamente';
+var jfbc_error_deleting_avatar = 'Error al eliminar el avatar';
+var jfbc_avatar_notfound = 'Avatar de archivo no encontrado';
